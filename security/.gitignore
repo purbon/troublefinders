@@ -1,0 +1,9 @@
+*.crt
+*.csr
+*_creds
+*.srl
+*.key
+*.pem
+*.der
+*.p12
+*.log

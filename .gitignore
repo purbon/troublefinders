@@ -40,3 +40,5 @@ build/
 ## Application
 dependency-reduced-pom.xml
 logs/
+keystore.p12
+truststore.p12
