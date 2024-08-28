@@ -1,13 +1,14 @@
 package com.purbon.kafka;
 
 import com.purbon.kafka.cmd.DNSLookupCmd;
+import com.purbon.kafka.cmd.TlsClientCmd;
 import com.purbon.kafka.cmd.TlsServerCmd;
 import picocli.CommandLine.*;
 import picocli.CommandLine;
 import picocli.CommandLine.Model.*;
 public class App {
 
-    @Command(name = "deep-tools", subcommands = { DNSLookupCmd.class, TlsServerCmd.class,
+    @Command(name = "deep-tools", subcommands = { DNSLookupCmd.class, TlsServerCmd.class, TlsClientCmd.class,
             CommandLine.HelpCommand.class }, description = "Some tools to help you with troubleshooting deployments")
     static class ParentCommand implements Runnable {
 
