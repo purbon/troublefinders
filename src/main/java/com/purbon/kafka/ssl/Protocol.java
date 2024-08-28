@@ -1,4 +1,4 @@
-package com.purbon.kafka;
+package com.purbon.kafka.ssl;
 
 public class Protocol {
 

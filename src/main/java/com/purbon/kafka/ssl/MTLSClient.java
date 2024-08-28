@@ -1,4 +1,4 @@
-package com.purbon.kafka;
+package com.purbon.kafka.ssl;
 
 import javax.net.ssl.*;
 import java.io.*;

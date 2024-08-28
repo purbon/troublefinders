@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8abde095-0dd7-4dce-bf50-bffd42c9f37d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/ssl/KeyStoreEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/ssl/SSLInspector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/MTLSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/MTLSServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/Protocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/SSLInspectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/ssl/AppSSLContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/MTLSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/ssl/MTLSClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/MTLSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/ssl/MTLSServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/purbon/kafka/Protocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/ssl/Protocol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
       <module name="java-deployment-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.purbon.kafka.*" />
+          <option name="PATTERN" value="com.purbon.kafka.ssl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="MTLSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.purbon.kafka.MTLSClient" />
+      <option name="MAIN_CLASS_NAME" value="com.purbon.kafka.ssl.MTLSClient" />
       <module name="java-deployment-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.purbon.kafka.*" />
+          <option name="PATTERN" value="com.purbon.kafka.ssl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="MTLSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.purbon.kafka.MTLSServer" />
+      <option name="MAIN_CLASS_NAME" value="com.purbon.kafka.ssl.MTLSServer" />
       <module name="java-deployment-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.purbon.kafka.*" />
+          <option name="PATTERN" value="com.purbon.kafka.ssl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +105,7 @@
       <module name="java-deployment-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.purbon.kafka.*" />
+          <option name="PATTERN" value="com.purbon.kafka.ssl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +121,7 @@
       <module name="java-deployment-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.purbon.kafka.*" />
+          <option name="PATTERN" value="com.purbon.kafka.ssl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,7 +155,7 @@
       <workItem from="1724743994750" duration="5104000" />
       <workItem from="1724759796958" duration="5104000" />
       <workItem from="1724837685396" duration="122000" />
-      <workItem from="1724842275242" duration="3032000" />
+      <workItem from="1724842275242" duration="5075000" />
     </task>
     <servers />
   </component>
