@@ -22,7 +22,7 @@ public class TlsServerCmd implements Callable<Integer>  {
     @Option(names = {"-p", "--password"}, description = "The stores password")
     private String password = "";
 
-    @Option(names = "-mtls", defaultValue = "true")
+    @Option(names = "-mtls", defaultValue = "false")
     boolean mtls;
 
     @Option(names = "-protocols", description = "Enabled TLS protocols", defaultValue = "TLSv1.2" )
@@ -34,9 +34,10 @@ public class TlsServerCmd implements Callable<Integer>  {
 
         MTLSServer server = new MTLSServer(keyStorePath, trustStorePath, password);
         try {
+            System.out.println("MTLS: "+mtls);
             server.start(enabledProtocols.toArray(new String[0]), mtls);
         } catch (SSLException e) {
-            System.out.println(e);
+            e.printStackTrace();
             return -1;
         }
         return 0;

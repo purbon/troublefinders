@@ -34,7 +34,7 @@ public class TlsClientCmd implements Callable<Integer>  {
         try {
             client.start(enabledProtocols.toArray(new String[0]));
         } catch (SSLException e) {
-            System.out.println(e);
+            e.printStackTrace();
             return -1;
         }
         return 0;

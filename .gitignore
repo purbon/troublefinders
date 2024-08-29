@@ -42,3 +42,8 @@ dependency-reduced-pom.xml
 logs/
 keystore.p12
 truststore.p12
+
+security/certs/others
+security/certs/things
+security/certs/fakes
+security/certs/wrongs
