@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8abde095-0dd7-4dce-bf50-bffd42c9f37d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/certs/create.sh" beforeDir="false" afterPath="$PROJECT_DIR$/security/certs/create.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/cmd/TlsClientCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/cmd/TlsClientCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/cmd/TlsServerCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/purbon/kafka/cmd/TlsServerCmd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +161,7 @@
       <workItem from="1724837685396" duration="122000" />
       <workItem from="1724842275242" duration="11555000" />
       <workItem from="1724923101419" duration="2373000" />
-      <workItem from="1724926048716" duration="12433000" />
+      <workItem from="1724926048716" duration="14307000" />
     </task>
     <servers />
   </component>
